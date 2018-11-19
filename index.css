@@ -1,12 +1,16 @@
 body {
-  background-color: #ecf0f1;
-  color: #34495e;
+  background-color: #69878f;
+  color: #99a7b4;
 }
 .btn {
   cursor: pointer;
 }
 .clicked{
   color: #7f8c8d;
+}
+.js-clock{
+  font-size:80px;
+  padding-left: 35vw;
 }
 
 .form,
@@ -18,3 +22,23 @@ body {
 {
   display: block;
 }
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn .3s linear;
+}
+
