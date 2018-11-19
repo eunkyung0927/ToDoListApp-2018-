@@ -10,7 +10,7 @@ function saveName(text){
 }
 
 function handleSubmit(event){
-  event.preventDefault();//input에 입력후 엔터치면 사라짐 -> 엔터쳐도 남아있도록 만들어줌 
+  event.preventDefault();//input에 입력후 엔터치면 사라짐 -> 엔터 쳐도 남아있도록 만들어줌 
   const currentValue = input.value;
   paintGreeting(currentValue);
   saveName(currentValue);
