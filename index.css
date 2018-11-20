@@ -1,6 +1,6 @@
 body {
   background-color: #69878f;
-  color: #99a7b4;
+  color: #e4e8ec;
 }
 .btn {
   cursor: pointer;
@@ -12,10 +12,11 @@ body {
   font-size:80px;
   padding-left: 35vw;
 }
-
 .form,
-.greeting{
+.greetings{
   display: none;
+  padding-left: 40vw;
+  font-size: 70px;
 }
 
 .showing 
